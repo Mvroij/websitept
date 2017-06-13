@@ -1,3 +1,12 @@
+@font-face {
+    font-family: futura;
+    src: url(Futura (Light).ttf);
+}
+@font-face {
+    font-family: SansSerif;
+    src: url(SansSerifBldFLF.otf);
+}
+
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -255,15 +264,17 @@ div:hover {
     font-size: 20px;
     writing-mode: vertical-lr;
     text-transform: uppercase;
+    font-family: futura;
 }
 
 .textcolum1side{
     position: absolute;
     color: #FFFFFF;
     margin-left: 12vw;
-    margin-top: -31vh;
+    margin-top: -30vh;
     font-size: 40px;
     text-transform: uppercase;
+    font-family: SansSerifBldFLF;
 }
 
 .textcolum2{
@@ -274,15 +285,17 @@ div:hover {
     font-size: 20px;
     writing-mode: vertical-lr;
     text-transform: uppercase;
+    font-family: futura;
 }
 
 .textcolum2side{
     position: absolute;
     color: #FFFFFF;
     margin-left: 11vw;
-    margin-top: 34vh;
+    margin-top: 35vh;
     font-size: 40px;
     text-transform: uppercase;
+    font-family: SansSerifBldFLF;
 }
 
 .textcolum3{
@@ -293,13 +306,15 @@ div:hover {
     font-size: 20px;
     writing-mode: vertical-lr;
     text-transform: uppercase;
+    font-family: futura;
 }
 
 .textcolum3side{
     position: absolute;
     color: #FFFFFF;
     margin-left: 11vw;
-    margin-top: 38vh;
+    margin-top: 39vh;
     font-size: 40px;
     text-transform: uppercase;
+    font-family: SansSerifBldFLF;
 }
